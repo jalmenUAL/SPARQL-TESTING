@@ -1,0 +1,52 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rdf:RDF">
+    <xs:complexType>
+      <xs:sequence>       
+        <xs:element name="socialnetwork:Event" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="rdf:about" type="EventType" use="required"/>
+            <xs:sequence>
+              <xs:element name="socialnetwork:date" type="dateType" minOccurs="1" maxOccurs="unbounded">             
+              <xs:complexType>
+                  <xs:attribute name="rdf:datatype" type="date" use="required"/>
+                </xs:complexType>
+               </xs:element>
+               
+               
+               
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        
+        
+         
+         
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="EventType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl#tennis"/>
+      <xs:enumeration value="http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl#beach"/>
+    </xs:restriction>
+  </xs:simpleType>
+   
+  <xs:simpleType name="dateType">
+    <xs:restriction base="xs:dateTime">
+      <xs:enumeration value="2016-01-01T00:00:00Z"/>
+      <xs:enumeration value="2018-01-01T00:00:00Z"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="date">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="integer">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.w3.org/2001/XMLSchema#integer"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

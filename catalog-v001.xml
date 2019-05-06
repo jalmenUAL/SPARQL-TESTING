@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="web/pizza.owlOntology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="http://www.semanticweb.org/antoniobecerra/ontologies/2016/1/untitled-ontology-9" uri="web/rdfOntology.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="Mature-Young.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="Popular_event.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="Popular_message.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="sn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="soc-net.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="duplicate:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="This_Year-Past.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="http://www.w3.org/2002/07/owl" uri="owl-vocabulary.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/Active_user.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/example-ontology-web.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/example-sn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/Relevant_event.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/Safe_user.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/sn-testing-2016.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/Solitary_user.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/old/XQOWL-2016/sn-tests.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/old/XQOWL-2016/sn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/old/XQOWL-2016/sn2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old/old/XQOWL-2016/socialnetwork.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="web/socialnetwork.owl.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old2/sn-testing-2016%20copia.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old2/sn-tests.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old2/sn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1488134993297" name="shadowed:http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl" uri="old2/socialnetwork.owl"/>
+    </group>
+</catalog>

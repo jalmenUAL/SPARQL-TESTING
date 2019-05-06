@@ -1,0 +1,72 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="rdf:RDF">
+    <xs:complexType>
+      <xs:sequence>
+          
+         
+        
+        <xs:element name="socialnetwork:User" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="rdf:about" type="UserType" use="required"/>
+            <xs:sequence>
+              <xs:element name="socialnetwork:age" type="ageType" minOccurs="1" maxOccurs="unbounded">
+              <xs:complexType>
+                  <xs:attribute name="rdf:datatype" type="integer" use="required"/>
+                </xs:complexType>
+               </xs:element>
+             <xs:element name="socialnetwork:name" type="nameType" minOccurs="1" maxOccurs="unbounded">
+               
+               </xs:element>
+               
+             
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        
+         
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+   
+   
+  <xs:simpleType name="nameType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="luis"/>
+      <xs:enumeration value="jesus"/>
+      <xs:enumeration value="antonio"/>
+    </xs:restriction>
+  </xs:simpleType>
+   
+  <xs:simpleType name="UserType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl#luis"/>
+      <xs:enumeration value="http://www.semanticweb.org/ontologies/2011/7/socialnetwork.owl#jesus"/>
+      
+      
+    </xs:restriction>
+  </xs:simpleType>
+  
+  
+  <xs:simpleType name="ageType">
+    <xs:restriction base="xs:integer">
+      <xs:enumeration value="30"/>
+      <xs:enumeration value="50"/>
+      <xs:enumeration value="60"/>
+    </xs:restriction>
+  </xs:simpleType>
+ 
+   
+   
+  <xs:simpleType name="date">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="integer">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="http://www.w3.org/2001/XMLSchema#integer"/>
+    </xs:restriction>
+  </xs:simpleType>
+   
+</xs:schema>
